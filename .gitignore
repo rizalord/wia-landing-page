@@ -1,0 +1,8 @@
+.vscode/
+node_modules/
+assets/less/
+assets/metadata/
+assets/scss/
+assets/sprites/
+assets/svgs/
+assets/less/

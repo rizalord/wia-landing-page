@@ -1,0 +1,385 @@
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+.header-img {
+  background-image: url("./../images/apps_bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 40vh;
+  position: relative;
+  overflow: hidden;
+}
+
+@media (min-width: 640px) {
+  .header-img {
+    height: 140vh;
+  }
+}
+
+.person-05 {
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  width: 30%;
+  left: calc(45% + 10px);
+  transform: translateX(-45%);
+  background-image: url("./../images/role_05.png");
+  background-size: contain;
+  background-position: top;
+  background-repeat: no-repeat;
+  z-index: 5;
+  animation: position 1s ease-in;
+  animation: left 1s ease-in;
+  animation: transformX 1s ease-in;
+  transition: position 1s ease-in;
+  transition: left 1s ease-in;
+  transition: transformX 1s ease-in;
+}
+
+.person-04 {
+  position: absolute;
+  bottom: 0;
+  top: 9%;
+  width: 30%;
+  left: 75%;
+  transform: translateX(-75%);
+  background-image: url("./../images/role_04.png");
+  background-size: contain;
+  background-position: top;
+  background-repeat: no-repeat;
+  z-index: 4;
+  animation: position 1s ease-in;
+  animation: left 1s ease-in;
+  animation: transformX 1s ease-in;
+  transition: position 1s ease-in;
+  transition: left 1s ease-in;
+  transition: transformX 1s ease-in;
+}
+
+.person-03 {
+  position: absolute;
+  bottom: 0;
+  top: 13%;
+  width: 30%;
+  left: 22%;
+  transform: translateX(-22%);
+  background-image: url("./../images/role_02.png");
+  background-size: contain;
+  background-position: top;
+  background-repeat: no-repeat;
+  z-index: 3;
+  animation: position 1s ease-in;
+  animation: left 1s ease-in;
+  animation: transformX 1s ease-in;
+  transition: position 1s ease-in;
+  transition: left 1s ease-in;
+  transition: transformX 1s ease-in;
+}
+
+.person-02 {
+  position: absolute;
+  bottom: 10%;
+  top: 13%;
+  width: 30%;
+  left: 76%;
+  background-image: url("./../images/role_03.png");
+  background-size: contain;
+  background-position: top;
+  background-repeat: no-repeat;
+  z-index: 2;
+  animation: position 1s ease-in;
+  animation: left 1s ease-in;
+  animation: transformX 1s ease-in;
+  transition: position 1s ease-in;
+  transition: left 1s ease-in;
+  transition: transformX 1s ease-in;
+}
+
+.person-01 {
+  position: absolute;
+  bottom: 10%;
+  top: 19%;
+  width: 28%;
+  left: 1%;
+  background-image: url("./../images/role_01.png");
+  background-size: contain;
+  background-position: top;
+  background-repeat: no-repeat;
+  z-index: 1;
+  animation: position 1s ease-in;
+  animation: left 1s ease-in;
+  animation: transformX 1s ease-in;
+  transition: position 1s ease-in;
+  transition: left 1s ease-in;
+  transition: transformX 1s ease-in;
+}
+
+.smoke {
+  z-index: 5;
+  background-image: url("./../images/apps_smoke.png");
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+
+.logo-app {
+  position: absolute;
+  bottom: 20vh;
+  width: 48%;
+  height: 38%;
+  left: 48%;
+  transform: translateX(-48%);
+  background-image: url("./../images/wia_logo.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 5;
+}
+
+@media (max-width: 640px) and (min-width: 0px) {
+  .person-01,
+  .person-02,
+  .person-03,
+  .person-04,
+  .person-05 {
+    background-size: cover;
+  }
+
+  .person-03 {
+    position: absolute;
+    bottom: 0;
+    top: 10%;
+    width: 20%;
+    left: 24%;
+    transform: translateX(-24%);
+    background-image: url("./../images/role_02.png");
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    z-index: 3;
+  }
+
+  .person-01 {
+    position: absolute;
+    bottom: 0%;
+    top: 16%;
+    width: 24%;
+    left: 1%;
+    background-image: url("./../images/role_01.png");
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    z-index: 1;
+  }
+
+  .person-02 {
+    position: absolute;
+    bottom: 0%;
+    top: 12%;
+    width: 18%;
+    left: 83%;
+    background-size: cover;
+  }
+
+  .smoke {
+    display: none;
+  }
+
+  .logo-app {
+    bottom: 3%;
+    background-size: contain;
+    height: 50%;
+    width: 90%;
+  }
+
+  .white-linear {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(180deg, transparent, rgba(255, 255, 255, 1));
+    z-index: 6;
+  }
+}
+
+header nav {
+  z-index: 6;
+}
+
+header nav ul li {
+  font-family: "Prompt", sans-serif;
+  font-weight: 500;
+}
+
+header nav ul li.active {
+  background-color: rgba(0, 0, 0, 0.25);
+}
+
+header nav ul li:hover {
+  background-color: rgba(0, 0, 0, 0.25);
+}
+
+@media (max-width: 958px) {
+  header nav {
+    display: none;
+  }
+}
+
+.bottom-menu {
+  width: 900px;
+  height: 180px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  /* background-color: red; */
+  z-index: 7;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+.nest-menu {
+  width: 30%;
+  height: 65%;
+  background-image: url("./../images/btn_reg.png");
+  background-size: cover;
+  background-position: center;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: -10px;
+}
+
+.nest-bar {
+  width: 30%;
+  height: 100%;
+  background-color: transparent;
+}
+
+.nest-bar:hover .top-edge-bar {
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+.top-bar {
+  height: calc(100% - 90px);
+  /* background-color: pink; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+.single-top-bar {
+  width: 15%;
+  height: 100%;
+  /* background-color: red; */
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.top-edge-bar {
+  width: 100%;
+  height: 7px;
+  background-color: rgba(0, 0, 0, 0.25);
+  margin-bottom: 7px;
+}
+
+.top-not-edge-bar {
+  width: 100%;
+  height: 7px;
+  /* background-color: rgba(0, 0, 0, 0.3); */
+  margin-bottom: 4px;
+}
+
+.eqa {
+  background-image: url("./../images/bg_equalize_a.png");
+}
+
+.eqb {
+  background-image: url("./../images/bg_equalize_b.png");
+}
+
+.bot-bar {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-end;
+  position: relative;
+}
+.single-bar {
+  width: 15%;
+  height: 90px;
+  background-image: url("./../images/bg_equalize_a.png");
+}
+.start-up-game {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 50%;
+  top: 40%;
+  transform: translate(-50%, -45%);
+  background-image: url("./../images/img_gamestart_off.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.single-bar.second-bar {
+  background-image: url("./../images/bg_equalize_b.png");
+}
+
+.btn-login {
+  background-image: url("./../images/btn_login.png");
+}
+
+.nest-menu:hover {
+  height: 75%;
+}
+
+.transio {
+  position: absolute;
+  top: -300px;
+  left: -30px;
+  width: 30px;
+  height: 600px;
+  background-color: rgba(255, 255, 255, 0.75);
+  transform: rotate(30deg);
+  filter: blur(25px);
+}
+
+.nest-menu:hover .transio {
+  animation: light 1.5s ease-in;
+}
+
+@keyframes light {
+  0% {
+    top: -300px;
+    left: -30px;
+  }
+  100% {
+    top: 800px;
+    left: 800px;
+  }
+}
+
+.nest-text-container {
+  font-family: "Prompt", sans-serif;
+}
+
+@media (max-width: 640px) {
+  .bottom-menu {
+    display: none;
+  }
+}
+
+#grid-section {
+}

@@ -1,0 +1,15 @@
+{
+  "name": "world_in_ayodance",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tailwindcss build lib/styles.css -o assets/css/styles.css"
+  },
+  "author": "rizalord",
+  "license": "ISC",
+  "dependencies": {
+    "tailwindcss": "^1.4.6"
+  }
+}
