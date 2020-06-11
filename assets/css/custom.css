@@ -6,7 +6,7 @@ body {
 
 .header-img {
   background-image: url("./../images/apps_bg.jpg");
-  background-size: contain;
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   height: 40vh;
