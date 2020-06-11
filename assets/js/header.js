@@ -36,10 +36,10 @@ document.addEventListener("mousemove", function (ev) {
     const move5 = (left5 - ev.clientX.toFixed(0) / 100)
       .toString()
       .split(".")[0];
-    const move4 = (left4 - (+ev.clientX.toString() / 100) * 2.5)
+    const move4 = (left4 - (+ev.clientX.toString() / 100) * 1.8)
       .toString()
       .split(".")[0];
-    const move3 = (left3 - (+ev.clientX.toString() / 100) * 2.5)
+    const move3 = (left3 - (+ev.clientX.toString() / 100) * 1.8)
       .toString()
       .split(".")[0];
     const move2 = (left2 - (+ev.clientX.toString() / 100) * 1.5)
@@ -49,18 +49,20 @@ document.addEventListener("mousemove", function (ev) {
       .toString()
       .split(".")[0];
 
-    person5.style.left = move5 + "px";
-    person4.style.left = move4 + "px";
-    person3.style.left = move3 + "px";
-    person2.style.left = move2 + "px";
-    person1.style.left = move1 + "px";
+    setTimeout(() => {
+      person5.style.left = move5 + "px";
+      person4.style.left = move4 + "px";
+      person3.style.left = move3 + "px";
+      person2.style.left = move2 + "px";
+      person1.style.left = move1 + "px";
+    }, 102);
   }
 });
 
 window.addEventListener("resize", function (ev) {
-  person5.style.left = window.innerWidth * 0.45 + "px";
-  person4.style.left = window.innerWidth * 0.75 + "px";
-  person3.style.left = window.innerWidth * 0.22 + "px";
+  person5.style.left = window.innerWidth * 0.318 + "px";
+  person4.style.left = window.innerWidth * 0.5275 + "px";
+  person3.style.left = window.innerWidth * 0.155 + "px";
   person2.style.left =
     window.innerWidth > 640
       ? window.innerWidth * 0.76 + "px"

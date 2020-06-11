@@ -17894,6 +17894,44 @@ video {
   text-shadow: none;
 }
 
+.nest-scale:hover {
+  -webkit-animation: scaling .5s ease-out;
+          animation: scaling .5s ease-out;
+}
+
+.nest-scale-remove:hover {
+  -webkit-animation: none;
+          animation: none;
+}
+
+@-webkit-keyframes scaling {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.1);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes scaling {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.1);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
 @media (min-width: 640px) {
   .sm\:space-y-0 > :not(template) ~ :not(template) {
     --space-y-reverse: 0;
@@ -35168,6 +35206,16 @@ video {
 
   .sm\:text-shadow-none {
     text-shadow: none;
+  }
+
+  .sm\:nest-scale:hover {
+    -webkit-animation: scaling .5s ease-out;
+            animation: scaling .5s ease-out;
+  }
+
+  .sm\:nest-scale-remove:hover {
+    -webkit-animation: none;
+            animation: none;
   }
 }
 
@@ -52446,6 +52494,16 @@ video {
   .md\:text-shadow-none {
     text-shadow: none;
   }
+
+  .md\:nest-scale:hover {
+    -webkit-animation: scaling .5s ease-out;
+            animation: scaling .5s ease-out;
+  }
+
+  .md\:nest-scale-remove:hover {
+    -webkit-animation: none;
+            animation: none;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -69723,6 +69781,16 @@ video {
   .lg\:text-shadow-none {
     text-shadow: none;
   }
+
+  .lg\:nest-scale:hover {
+    -webkit-animation: scaling .5s ease-out;
+            animation: scaling .5s ease-out;
+  }
+
+  .lg\:nest-scale-remove:hover {
+    -webkit-animation: none;
+            animation: none;
+  }
 }
 
 @media (min-width: 1280px) {
@@ -86999,5 +87067,15 @@ video {
 
   .xl\:text-shadow-none {
     text-shadow: none;
+  }
+
+  .xl\:nest-scale:hover {
+    -webkit-animation: scaling .5s ease-out;
+            animation: scaling .5s ease-out;
+  }
+
+  .xl\:nest-scale-remove:hover {
+    -webkit-animation: none;
+            animation: none;
   }
 }

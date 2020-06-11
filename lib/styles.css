@@ -20,4 +20,26 @@
   .text-shadow-none {
     text-shadow: none;
   }
+
+  
+.nest-scale:hover {
+  animation: scaling .5s ease-out;
+}
+
+.nest-scale-remove:hover {
+  animation: none;
+}
+
+}
+
+@keyframes scaling {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
 }

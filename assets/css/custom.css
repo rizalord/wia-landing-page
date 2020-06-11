@@ -25,19 +25,13 @@ body {
   bottom: 0;
   top: 0;
   width: 30%;
-  left: calc(45% + 10px);
-  transform: translateX(-45%);
+  left: 31.8%;
+  transform: translateX(-31.8%);
   background-image: url("./../images/role_05.png");
   background-size: contain;
   background-position: top;
   background-repeat: no-repeat;
   z-index: 5;
-  animation: position 1s ease-in;
-  animation: left 1s ease-in;
-  animation: transformX 1s ease-in;
-  transition: position 1s ease-in;
-  transition: left 1s ease-in;
-  transition: transformX 1s ease-in;
 }
 
 .person-04 {
@@ -45,8 +39,8 @@ body {
   bottom: 0;
   top: 9%;
   width: 30%;
-  left: 75%;
-  transform: translateX(-75%);
+  left: 52.75%;
+  transform: translateX(-52.75%);
   background-image: url("./../images/role_04.png");
   background-size: contain;
   background-position: top;
@@ -65,8 +59,8 @@ body {
   bottom: 0;
   top: 13%;
   width: 30%;
-  left: 22%;
-  transform: translateX(-22%);
+  left: 15.5%;
+  transform: translateX(-15.5%);
   background-image: url("./../images/role_02.png");
   background-size: contain;
   background-position: top;
@@ -154,8 +148,8 @@ body {
     bottom: 0;
     top: 10%;
     width: 20%;
-    left: 24%;
-    transform: translateX(-24%);
+    left: 20%;
+    transform: translateX(-20%);
     background-image: url("./../images/role_02.png");
     background-size: cover;
     background-position: top;
@@ -381,5 +375,11 @@ header nav ul li:hover {
   }
 }
 
+.text-prompt {
+  font-family: "Prompt", sans-serif;
+}
+
 #grid-section {
 }
+
+/* Hover Effect */
