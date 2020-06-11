@@ -17895,8 +17895,8 @@ video {
 }
 
 .nest-scale:hover {
-  -webkit-animation: scaling .5s ease-out;
-          animation: scaling .5s ease-out;
+  -webkit-animation: scaling .4s ease-out;
+          animation: scaling .4s ease-out;
 }
 
 .nest-scale-remove:hover {
@@ -35209,8 +35209,8 @@ video {
   }
 
   .sm\:nest-scale:hover {
-    -webkit-animation: scaling .5s ease-out;
-            animation: scaling .5s ease-out;
+    -webkit-animation: scaling .4s ease-out;
+            animation: scaling .4s ease-out;
   }
 
   .sm\:nest-scale-remove:hover {
@@ -52496,8 +52496,8 @@ video {
   }
 
   .md\:nest-scale:hover {
-    -webkit-animation: scaling .5s ease-out;
-            animation: scaling .5s ease-out;
+    -webkit-animation: scaling .4s ease-out;
+            animation: scaling .4s ease-out;
   }
 
   .md\:nest-scale-remove:hover {
@@ -69783,8 +69783,8 @@ video {
   }
 
   .lg\:nest-scale:hover {
-    -webkit-animation: scaling .5s ease-out;
-            animation: scaling .5s ease-out;
+    -webkit-animation: scaling .4s ease-out;
+            animation: scaling .4s ease-out;
   }
 
   .lg\:nest-scale-remove:hover {
@@ -87070,8 +87070,8 @@ video {
   }
 
   .xl\:nest-scale:hover {
-    -webkit-animation: scaling .5s ease-out;
-            animation: scaling .5s ease-out;
+    -webkit-animation: scaling .4s ease-out;
+            animation: scaling .4s ease-out;
   }
 
   .xl\:nest-scale-remove:hover {

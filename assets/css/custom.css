@@ -6,7 +6,7 @@ body {
 
 .header-img {
   background-image: url("./../images/apps_bg.jpg");
-  background-size: cover;
+  background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
   height: 40vh;
@@ -125,8 +125,8 @@ body {
   bottom: 20vh;
   width: 48%;
   height: 38%;
-  left: 48%;
-  transform: translateX(-48%);
+  left: 25%;
+  transform: translateX(-25%);
   background-image: url("./../images/wia_logo.png");
   background-size: contain;
   background-position: center;
@@ -188,6 +188,8 @@ body {
     background-size: contain;
     height: 50%;
     width: 90%;
+    left: 6%;
+    transform: translateX(-6%);
   }
 
   .white-linear {
@@ -424,4 +426,19 @@ header nav ul li:hover {
 
 .download-btn {
   color: #3a4eff;
+}
+
+
+.single-news {
+  height: auto;
+}
+
+.bg-image-1 {
+  /* height: 200px; */
+  background-image: url('./../images/news_bg_1.jpg');
+  background-size: cover;
+}
+
+.wrapper:hover  {
+  transform: translateY(-10px);
 }

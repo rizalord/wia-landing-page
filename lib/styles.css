@@ -23,7 +23,7 @@
 
   
 .nest-scale:hover {
-  animation: scaling .5s ease-out;
+  animation: scaling .4s ease-out;
 }
 
 .nest-scale-remove:hover {

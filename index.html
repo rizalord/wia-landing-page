@@ -23,15 +23,45 @@
   </head>
   <body>
     <header class="header-img w-screen">
-      <div class="person-01" data-aos="fade-right"></div>
-      <div class="person-02" data-aos="fade-left"></div>
-      <div class="person-03" data-aos="fade-right"></div>
-      <div class="person-04" data-aos="fade-left"></div>
-      <div class="person-05" data-aos="fade-right"></div>
+      <div
+        class="person-01"
+        data-aos="fade-right"
+        data-aos-duration="400"
+        data-aos-delay="700"
+      ></div>
+      <div
+        class="person-02"
+        data-aos="fade-left"
+        data-aos-duration="400"
+        data-aos-delay="650"
+      ></div>
+      <div
+        class="person-03"
+        data-aos="fade-right"
+        data-aos-duration="400"
+        data-aos-delay="650"
+      ></div>
+      <div
+        class="person-04"
+        data-aos="fade-left"
+        data-aos-duration="400"
+        data-aos-delay="600"
+      ></div>
+      <div
+        class="person-05"
+        data-aos="fade-right"
+        data-aos-duration="400"
+        data-aos-delay="500"
+      ></div>
       <div
         class="smoke absolute top-0 left-0 right-0 bottom-0 w-full h-full"
       ></div>
-      <div class="logo-app"></div>
+      <div
+        class="logo-app"
+        data-aos="flip-up"
+        data-aos-duration="900"
+        data-aos-delay="500"
+      ></div>
       <div class="white-linear"></div>
 
       <!-- Navbar -->
@@ -292,10 +322,13 @@
     <!-- Download Menu -->
     <section
       id="download-menu"
-      class="w-screen flex flex-col justify-center items-center relative "
+      class="w-screen flex flex-col justify-center items-center relative"
     >
       <div
-        class="char-above-main absolute top-0 right-0 bottom-0 hidden md:block" data-aos="fade-left" data-aos-duration="1000"
+        class="char-above-main absolute top-0 right-0 bottom-0 hidden md:block"
+        data-aos="fade-left"
+        data-aos-duration="1000"
+        data-aos-once="true"
       >
         <div class="container w-full h-full mx-auto max-w-screen-lg relative">
           <div class="absolute h-full w-for-chara right-0"></div>
@@ -326,6 +359,35 @@
         </div>
       </div>
       <div class="bot-download w-full"></div>
+    </section>
+
+    <!-- News Section -->
+    <section id="news" class="mx-auto w-full container">
+      <h1 class="text-center text-prompt text-black font-medium text-3xl mb-10">
+        Pengumuman
+        <span class="text-blue-500">Berita</span>
+      </h1>
+      <div class="w-full flex flex-row">
+        <!-- single news -->
+        <div class="w-full sm:w-1/2 lg:w-1/3 single-news px-5 mb-5">
+          <div class="wrapper cursor-pointer flex flex-col hover:shadow-2xl transition ease-out duration-500">
+            <div class="bg-image-1 pb-56 sm:pb-40 w-full pl-5 pt-5">
+              <span
+                class="text-white bg-black bg-opacity-50 text-prompt px-3 py-1 text-md rounded-md"
+                >pengumuman</span
+              >
+            </div>
+            <div class="p-5">
+              <h3 class="text-prompt text-lg font-medium mb-3">
+                World In Audition Closed Beta <span class="bg-red-500 px-2 text-sm text-white rounded-lg ml-1">N</span>
+              </h3>
+              <p class="text-prompt text-sm text-gray-800">
+                Dunia dalam Audition, game Dance Music. Sekuel ke game Audition. Bawa kembali ke teman. Saling menyentuh lagi Dan mengumumkan peserta untuk menguji sistem game selama Closed Beta (CBT) pada 20 - 25 Juni 2020, baik game Thailand dan Inggris. Anda dapat menggunakan akun game MoveON Game untuk segera berpartisipasi dalam pengujian.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- Script -->
