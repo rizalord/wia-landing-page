@@ -379,7 +379,49 @@ header nav ul li:hover {
   font-family: "Prompt", sans-serif;
 }
 
-#grid-section {
+#download-menu {
+  height: 600px;
+  /* background-color: red; */
 }
 
-/* Hover Effect */
+#download-menu .mid-download {
+  height: 50%;
+  background-color: #3a4eff;
+}
+
+#download-menu .top-download {
+  height: 20%;
+  /* background-color: white; */
+  background-image: url("./../svgs/top.svg");
+  background-size: cover;
+}
+
+#download-menu .bot-download {
+  height: 30%;
+  /* background-color: white; */
+  background-image: url("./../svgs/bottom.svg");
+  background-size: cover;
+}
+
+.char-above-main {
+  width: 400px;
+  right: 10%;
+}
+
+@media (max-width: 996px) {
+  .char-above-main {
+    right: 0%;
+  }
+}
+
+.w-for-chara {
+  width: 400px;
+  background-image: url("./../images/img_char_wia_main.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.download-btn {
+  color: #3a4eff;
+}
