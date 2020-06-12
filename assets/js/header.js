@@ -97,5 +97,17 @@ $(window).on('load' , function(){
       .split(".")[0];
   });
 
+  $('#toggle-btn').on('click' , function(){
+    $("#toggled-view").css('right' , '0px')
+    $("#toggled-view").css("left", "0px");
+    $('body').css('overflow' , 'hidden')
+  });
+
+  $("#btn-close").on("click", function () {
+    $("#toggled-view").css("right", "100%");
+    $("#toggled-view").css("left", "-200%");
+    $("body").css("overflow", "auto");
+  });
+
 });
 

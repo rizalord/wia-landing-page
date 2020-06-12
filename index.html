@@ -21,7 +21,58 @@
       rel="stylesheet"
     />
   </head>
-  <body>
+  <body class="relative">
+    <!-- Mobile Navbar -->
+    <!-- Toggle -->
+    <div id="toggle-btn" class="absolute top-0 right-0  close-event bg-black bg-opacity-25 hover:bg-opacity-50 rounded-full flex justify-center items-center cursor-pointer hidden" style="z-index: 8;">
+      <i class="fas fa-bars text-white self-center text-sm"></i>
+    </div>
+    <!-- Non Toggle -->
+    <div id="toggled-view"
+      class="absolute overflow-hidden top-0 transition ease-out duration-300  bottom-0 bg-gray-800 mobile-nav left-0 right-100 flex flex-col "
+    >
+      <header
+        class="w-full py-6 bg-gray-900 relative flex items-center justify-between px-5"
+      >
+        <div  class="rounded-full bg-transparent invisible hover:bg-gray-800 transition ease-in duration-200 block close-event flex justify-center items-center cursor-pointer">
+          <i class="fas fa-times text-white self-center"></i>
+        </div>
+        <h1 class="text-prompt font-semibold text-white">
+          World <span class="text-blue-500">In</span>
+          <span class="text-red-500">Ayodance</span>
+        </h1>
+        <div id="btn-close" class="rounded-full bg-transparent hover:bg-gray-800 transition ease-in duration-100 block close-event flex justify-center items-center cursor-pointer">
+          <i class="fas fa-times text-white self-center"></i>
+        </div>
+        
+      </header>
+      <section class="w-full px-5 py-6">
+        <ul class="w-full flex flex-col">
+          <li class="flex flex-row w-full flex-no-wrap  items-center mb-5 text-gray-500 cursor-pointer li-mob">
+            <i class="fas fa-home text-xs inline-block mr-3 text-blue-500"></i>
+            <p class="text-prompt font-medium text-sm text-gray-100" >Beranda</p>
+          </li>
+          <li class="flex flex-row w-full flex-no-wrap items-center mb-5 text-gray-500 cursor-pointer li-mob">
+            <i class="fas fa-user-plus text-xs inline-block  mr-3"></i>
+            <p class="text-prompt font-medium text-sm " >Ajukan akun</p>
+          </li>
+          <li class="flex flex-row w-full flex-no-wrap items-center mb-5 text-gray-500 cursor-pointer li-mob">
+            <i class="fas fa-unlock text-xs inline-block  mr-3"></i>
+            <p class="text-prompt font-medium text-sm " >Gabung</p>
+          </li>
+          <li class="flex flex-row w-full flex-no-wrap items-center mb-5 text-gray-500 cursor-pointer li-mob">
+            <i class="fas fa-credit-card text-xs inline-block  mr-3"></i>
+            <p class="text-prompt font-medium text-sm " >Isi ulang</p>
+          </li>
+          <li class="flex flex-row w-full flex-no-wrap items-center mb-5 text-gray-500 cursor-pointer li-mob">
+            <i class="fas fa-life-ring text-xs inline-block  mr-3"></i>
+            <p class="text-prompt font-medium text-sm " >Pertanyaan yang sering diajukan</p>
+          </li>
+        </ul>
+      </section>
+    </div>
+
+    <!-- Header -->
     <header class="header-img w-screen">
       <div
         class="person-01"
@@ -64,7 +115,7 @@
       ></div>
       <div class="white-linear"></div>
 
-      <!-- Navbar -->
+      <!-- Desktop Navbar -->
       <nav class="absolute top-0 right-0 mr-20">
         <ul class="w-full h-full block py-4 px-10">
           <li
@@ -576,12 +627,18 @@
       </section>
     </div>
 
-    <footer class="w-full py-10 bg-gray-200 text-center sm:text-left">
+    <!-- FOOTER -->
+    <footer class="w-full py-10 bg-gray-200 text-center sm:text-left hidden">
       <div class="container mx-auto text-sm">
-        <p class="text-prompt leading-8 text-lg">Copyright 2020 - Ahmad Rizal Khamdani</p>
-        <a href="https://github.com/rizalord" class="text-prompt text-md hover:text-blue-500">https://github.com/rizalord</a>
+        <p class="text-prompt leading-8 text-lg">
+          Copyright 2020 - Ahmad Rizal Khamdani
+        </p>
+        <a
+          href="https://github.com/rizalord"
+          class="text-prompt text-md hover:text-blue-500"
+          >https://github.com/rizalord</a
+        >
       </div>
-      
     </footer>
 
     <!-- Script -->
