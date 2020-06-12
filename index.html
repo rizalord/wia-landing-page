@@ -24,49 +24,70 @@
   <body class="relative">
     <!-- Mobile Navbar -->
     <!-- Toggle -->
-    <div id="toggle-btn" class="absolute top-0 right-0  close-event bg-black bg-opacity-25 hover:bg-opacity-50 rounded-full flex justify-center items-center cursor-pointer hidden" style="z-index: 8;">
+    <div
+      id="toggle-btn"
+      class="absolute top-0 right-0 close-event bg-black bg-opacity-25 hover:bg-opacity-50 rounded-full flex justify-center items-center cursor-pointer hidden"
+      style="z-index: 8;"
+    >
       <i class="fas fa-bars text-white self-center text-sm"></i>
     </div>
     <!-- Non Toggle -->
-    <div id="toggled-view"
-      class="absolute overflow-hidden top-0 transition ease-out duration-300  bottom-0 bg-gray-800 mobile-nav left-0 right-100 flex flex-col "
+    <div
+      id="toggled-view"
+      class="absolute overflow-hidden top-0 transition ease-out duration-300 bottom-0 bg-gray-800 mobile-nav left-0 right-100 flex flex-col"
     >
       <header
         class="w-full py-6 bg-gray-900 relative flex items-center justify-between px-5"
       >
-        <div  class="rounded-full bg-transparent invisible hover:bg-gray-800 transition ease-in duration-200 block close-event flex justify-center items-center cursor-pointer">
+        <div
+          class="rounded-full bg-transparent invisible hover:bg-gray-800 transition ease-in duration-200 block close-event flex justify-center items-center cursor-pointer"
+        >
           <i class="fas fa-times text-white self-center"></i>
         </div>
         <h1 class="text-prompt font-semibold text-white">
           World <span class="text-blue-500">In</span>
           <span class="text-red-500">Ayodance</span>
         </h1>
-        <div id="btn-close" class="rounded-full bg-transparent hover:bg-gray-800 transition ease-in duration-100 block close-event flex justify-center items-center cursor-pointer">
+        <div
+          id="btn-close"
+          class="rounded-full bg-transparent hover:bg-gray-800 transition ease-in duration-100 block close-event flex justify-center items-center cursor-pointer"
+        >
           <i class="fas fa-times text-white self-center"></i>
         </div>
-        
       </header>
       <section class="w-full px-5 py-6">
         <ul class="w-full flex flex-col">
-          <li class="flex flex-row w-full flex-no-wrap  items-center mb-5 text-gray-500 cursor-pointer li-mob">
+          <li
+            class="flex flex-row w-full flex-no-wrap items-center mb-5 text-gray-500 cursor-pointer li-mob"
+          >
             <i class="fas fa-home text-xs inline-block mr-3 text-blue-500"></i>
-            <p class="text-prompt font-medium text-sm text-gray-100" >Beranda</p>
+            <p class="text-prompt font-medium text-sm text-gray-100">Beranda</p>
           </li>
-          <li class="flex flex-row w-full flex-no-wrap items-center mb-5 text-gray-500 cursor-pointer li-mob">
-            <i class="fas fa-user-plus text-xs inline-block  mr-3"></i>
-            <p class="text-prompt font-medium text-sm " >Ajukan akun</p>
+          <li
+            class="flex flex-row w-full flex-no-wrap items-center mb-5 text-gray-500 cursor-pointer li-mob"
+          >
+            <i class="fas fa-user-plus text-xs inline-block mr-3"></i>
+            <p class="text-prompt font-medium text-sm">Ajukan akun</p>
           </li>
-          <li class="flex flex-row w-full flex-no-wrap items-center mb-5 text-gray-500 cursor-pointer li-mob">
-            <i class="fas fa-unlock text-xs inline-block  mr-3"></i>
-            <p class="text-prompt font-medium text-sm " >Gabung</p>
+          <li
+            class="flex flex-row w-full flex-no-wrap items-center mb-5 text-gray-500 cursor-pointer li-mob"
+          >
+            <i class="fas fa-unlock text-xs inline-block mr-3"></i>
+            <p class="text-prompt font-medium text-sm">Gabung</p>
           </li>
-          <li class="flex flex-row w-full flex-no-wrap items-center mb-5 text-gray-500 cursor-pointer li-mob">
-            <i class="fas fa-credit-card text-xs inline-block  mr-3"></i>
-            <p class="text-prompt font-medium text-sm " >Isi ulang</p>
+          <li
+            class="flex flex-row w-full flex-no-wrap items-center mb-5 text-gray-500 cursor-pointer li-mob"
+          >
+            <i class="fas fa-credit-card text-xs inline-block mr-3"></i>
+            <p class="text-prompt font-medium text-sm">Isi ulang</p>
           </li>
-          <li class="flex flex-row w-full flex-no-wrap items-center mb-5 text-gray-500 cursor-pointer li-mob">
-            <i class="fas fa-life-ring text-xs inline-block  mr-3"></i>
-            <p class="text-prompt font-medium text-sm " >Pertanyaan yang sering diajukan</p>
+          <li
+            class="flex flex-row w-full flex-no-wrap items-center mb-5 text-gray-500 cursor-pointer li-mob"
+          >
+            <i class="fas fa-life-ring text-xs inline-block mr-3"></i>
+            <p class="text-prompt font-medium text-sm">
+              Pertanyaan yang sering diajukan
+            </p>
           </li>
         </ul>
       </section>
@@ -502,6 +523,9 @@
           <!-- single tutorial -->
           <div
             class="w-full sm:w-1/3 single-tut px-2 sm:px-6 mb-8 relative cursor-pointer transition ease-out duration-300"
+            data-aos-duration="1000"
+            data-aos="fade-up"
+            data-aos-once="true"
           >
             <img
               src="./assets/images/guide_img0.jpg"
@@ -517,6 +541,10 @@
           </div>
           <div
             class="w-full sm:w-1/3 single-tut px-2 sm:px-6 mb-8 relative cursor-pointer transition ease-out duration-300"
+            data-aos-duration="1000"
+            data-aos-delay="200"
+            data-aos="fade-up"
+            data-aos-once="true"
           >
             <img
               src="./assets/images/guide_img1.jpg"
@@ -532,6 +560,10 @@
           </div>
           <div
             class="w-full sm:w-1/3 single-tut px-2 sm:px-6 mb-8 relative cursor-pointer transition ease-out duration-300"
+            data-aos-duration="1000"
+            data-aos-delay="300"
+          data-aos="fade-up"
+          data-aos-once="true"
           >
             <img
               src="./assets/images/guide_img2.jpg"
