@@ -428,17 +428,39 @@ header nav ul li:hover {
   color: #3a4eff;
 }
 
-
 .single-news {
   height: auto;
 }
 
 .bg-image-1 {
   /* height: 200px; */
-  background-image: url('./../images/news_bg_1.jpg');
+  background-image: url("./../images/news_bg_1.jpg");
   background-size: cover;
 }
 
-.wrapper:hover  {
+.wrapper:hover {
   transform: translateY(-10px);
+}
+
+.bg-green-bg {
+  background-color: rgba(25, 216, 179, 0.9);
+}
+
+.bg-blue-bg {
+  background-color: rgba(73, 149, 214, 0.9);
+}
+
+.bg-red-bg {
+  background-color: rgba(243, 68, 87, 0.9);
+}
+
+@media (max-width: 768px) {
+  .single-tut:hover img {
+    transform: scale(1.1);
+  }
+}
+@media (min-width: 768px) {
+  .single-tut:hover {
+    transform: scale(1.065);
+  }
 }
